@@ -214,8 +214,7 @@ function resetGame() {
         <div class="team-option">
             <svg class="alien-icon" viewBox="0 0 100 100">
                 <circle cx="50" cy="50" r="45" fill="#4CAF50"/>
-                <circle cx="35" cy="40" r="10" fill="black"/>
-                <circle cx="65" cy="40" r="10" fill="black"/>
+                <img src="imagenes/alien1.jpg" width="200" height="200">
                 <path d="M30 70 Q50 80 70 70" stroke="black" stroke-width="5" fill="none"/>
                 <path d="M20 20 Q30 40 50 30 Q70 40 80 20" stroke="black" stroke-width="3" fill="none"/>
             </svg>
@@ -224,6 +223,7 @@ function resetGame() {
         <div class="team-option">
 
             <svg class="soldier-icon" viewBox="0 0 100 100">
+            <circle cx="50" cy="50" r="45" fill="#9F00FF"/>
               <img src="imagenes/soldado1.jpg" width="200" height="200">  
             </svg>
             <button id="soldier-btn">Bando Soldado</button>
